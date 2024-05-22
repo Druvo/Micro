@@ -1,0 +1,24 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "issue",
+      "Config": [
+        {
+          "Name": "Issue API",
+          "Version": "v1",
+          "Url": "http://host.docker.internal:5001/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "notification",
+      "Config": [
+        {
+          "Name": "Notification API",
+          "Version": "v1",
+          "Url": "http://host.docker.internal:5002/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
